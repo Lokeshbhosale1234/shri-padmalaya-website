@@ -16,7 +16,7 @@ Open http://127.0.0.1:4173/. To use another port:
 node design-preview/serve.cjs --port 4174
 ```
 
-The site initially respects reduced-motion preferences. Visitors can enable the full experience with the hero's Play button or the footer's **Enable animations** control. The choice is saved on that device, so full motion continues on the normal URL after reloading. The footer's **Reduce motion** control switches it off again. For an explicit full-motion design review, open `/?motion=full`.
+The full animated experience is the default. The muted hero video starts automatically and loops without an on-image Play/Pause button. Visitors can use the footer's **Reduce motion** control to switch motion off and **Enable animations** to restore it; that choice is saved on their device. The `?motion=reduced` and `?motion=full` URL options provide explicit overrides. Video playback pauses while the page is hidden or the video is offscreen, then resumes when visible.
 
 ## Editing and building
 
