@@ -16,7 +16,7 @@ Open http://127.0.0.1:4173/. To use another port:
 node design-preview/serve.cjs --port 4174
 ```
 
-The site respects reduced-motion preferences. For an explicit full-motion design review, open `/?motion=full`.
+The site initially respects reduced-motion preferences. Visitors can enable the full experience with the hero's Play button or the footer's **Enable animations** control. The choice is saved on that device, so full motion continues on the normal URL after reloading. The footer's **Reduce motion** control switches it off again. For an explicit full-motion design review, open `/?motion=full`.
 
 ## Editing and building
 
