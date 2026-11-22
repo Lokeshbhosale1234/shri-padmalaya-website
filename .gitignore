@@ -1,0 +1,36 @@
+# Local design experiments, recordings, backups, dependencies and QA output
+node_modules/
+**/node_modules/
+output/
+backups/
+.skill-build/
+.codex/
+.agents/
+.env
+.env.*
+!.env.example
+*.log
+Thumbs.db
+.DS_Store
+material-preview/
+motion-lab/
+motion-preview/
+
+# Keep the current website's source and local server only.
+.design-tools/*
+!.design-tools/aventiora-site.template.html
+!.design-tools/aventiora-site.css
+!.design-tools/aventiora-site.js
+!.design-tools/build-aventiora-site.py
+design-preview/*
+!design-preview/serve.cjs
+
+# Publish only assets used by the current design.
+assets/*
+!assets/aventiora-site.css
+!assets/aventiora-site.js
+!assets/site-data.js
+!assets/logo.webp
+!assets/fonts/
+!assets/vendor/
+!assets/travel/
